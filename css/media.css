@@ -1,0 +1,724 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+.title-view-of-item {
+	margin-left: 74px;
+}
+.border-around-about {
+    position: absolute;
+    top: 0;
+    right: 1%;
+    width: 15%;
+}
+.descr-view-of-item {
+    margin-left: 270px;
+}
+.btn-of-the-section {
+    margin-top: 2%;
+}
+.wrap-block-of-our-services {
+    min-height: 565px;
+}
+.menu{
+	right: 20px;
+}
+.arrow-agent {
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 42%;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .min-photo-agent-hover {
+    position: absolute;
+    display: block;
+    width: 98%;
+    height: 96%;
+    background-color: rgb(58,115,213,0.5);
+    margin-top: 1px;
+    margin-right: 2px;
+}
+.arrow-agent {
+    height: 30%;
+    width: auto;
+    margin-left: 40%;
+    margin-top: 28%;
+    transform: rotate(90deg);
+}
+ .top-block {
+    background-image: url(../img/bg1.jpg);
+ 	min-height: 850px;
+	background-size: 100% 850px;
+	background-repeat: no-repeat;
+ }
+ .bg1 {
+    background-image: url(../img/bg1.jpg);
+}
+.bg2 {
+    background-image: url(../img/bg2.jpg);
+}
+.bg3 {
+    background-image: url(../img/bg3.jpg);
+}
+.bg4 {
+    background-image: url(../img/bg4.jpg);
+}
+ .arrow_slider {
+    display: none;
+ }
+ .top-block-wrap {
+ 	position: relative;
+ 	min-height: 850px;
+	background-image: none;
+	background-size: 100% 850px;
+ }
+ .dark-side-block {
+ 	position: absolute;
+    margin-right: 0px;
+    width: 100%;
+    z-index: 1;
+    min-height: 850px;
+}
+.menu{
+	right: 12%; 
+}
+.link-in-menu{
+	font-size: 14px;
+}
+.agency {
+    position: absolute;
+    text-align: center;
+    top: -10px;
+    width: 70%;
+}
+.main-view-of-item {
+	position: absolute;
+	top: 100px;
+	z-index: 2;
+	width: 70%;
+	left: 15%;
+}
+.title-view-of-item {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 75px;
+}
+.text-title-view-of-item {
+	font-size: 38px;
+}
+.descr-view-of-item {
+    margin-right: 0;
+    font-size: 20px;
+}
+.item {
+    margin-bottom: 35px;
+    width: 50%;
+    margin-left: 25%;
+}
+.item-active{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25%;
+    width: 100%;
+    margin-left: 0;
+}
+.index-number-of-item {
+    padding-right: 20px;
+    font-size: 16px;
+}
+.mt-285 {
+    margin-top: 410px;
+}
+.border-around-about {
+    position: absolute;
+    top: 7%;
+    width: 23%;
+    border-top: 6px solid #111111;
+    border-right: 6px solid #111111;
+}
+.h1-of-the-section {
+    font-size: 75px;
+    margin-left: 10%;
+}
+.the-h1-about-us{
+	font-size: 75px;
+}
+.p-of-the-section {
+    font-size: 19px;
+    width: 80%;
+    margin-left: 10%;
+}
+.btn-of-the-section {
+    width: 50%;
+    margin-left: 25%;
+}
+.border-under-btn {
+	width: 50%;
+    margin-left: 25%;
+}
+.wrap-block-of-our-services{
+	min-height: auto;
+}
+.title-of-our-services{
+	margin-bottom: 20px;
+}
+.hover-of-our-services{
+	margin-top: 0;
+}
+.wrap-block-of-our-services{
+	width: 80%;
+    margin-left: 10%;
+}
+.content-of-blck-our-srvcs {
+    width: 90%;
+    margin-left: 5%;
+}
+.car {
+    min-height: 400px;
+    width: 60%;
+    max-height: 400px;
+    margin-left: 20%;
+}
+.h2-of-cars {
+    margin-top: 27%;
+}
+.featch {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 15px;
+}
+.img-features {
+    margin-top: 7%;
+}
+.wrap-our-agents {
+    background-size: 33% 100%;
+    background-repeat: no-repeat;
+    min-height: 2000px;
+}
+.photo-agent {
+    width: 60%;
+    margin-left: 39%;
+    margin-top: 22%;
+    background-image: url(../img/man.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about-agent {
+    margin-left: 30px;
+    margin-top: 24%;
+}
+.title-developers {
+    margin-top: 61px;
+}
+.min-photo-agent {
+    height: 177px;
+}
+.wrap-our-agents {
+    min-height: 1080px;
+}
+.block-jobs {
+    -webkit-background-size: 100% 141px;
+    background-size: 100% 141px;
+}
+.arrow_jobs {
+    position: absolute;
+    display: inline;
+    width: 58%;
+    top: 32%;
+    left: 21%;
+    z-index: 5;
+    height: 7%;
+}
+.arrow_left_jobs {
+    float: left;
+    height: 100%;
+    width: 13%;
+    background: #fff;
+    margin-right: 74%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.arrow_right_jobs {
+    float: left;
+    height: 100%;
+    width: 13%;
+    background-image: url(../img/footer-background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.img-jobs {
+    margin-top: 19%;
+}
+.div_new {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 15px;
+}
+.footer-section {
+ 	width: 100%;
+ 	margin-left: 0%;
+ 	position: static;
+}
+footer {
+	position: static;
+}
+footer iframe {
+	height: 600px !important;
+}
+.agency-footer {
+    font-size: 38px;
+    font-family: 'MontserratBold';
+    margin-bottom: 20px;
+    text-align: center;
+}
+.agency-text {
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+}
+.links-footer {
+    width: 40%;
+    margin-left: 30%;
+}
+.img-qr {
+    margin-top: 20px;
+    width: 30%;
+    margin-left: 35%;
+}
+.data_link_footer {
+    margin-left: 20%;
+}
+.wrap-data-link-footer {
+    width: 40%;
+    margin-left: 30%;
+}
+.wrap-socials-footer {
+    margin: 0;
+    margin-left: 0;
+    margin-top: 10px;
+}
+.p_socials-footer{
+	display: none;
+}
+.facebook-icon-footer{
+	display: block;
+	margin: auto;
+	margin-bottom: 20px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.index-number-of-item {
+    padding-right: 20px;
+    font-size: 16px;
+}
+	.main-view-of-item {
+	width: 80%;
+	left: 10%;
+}
+.border-around-about {
+    position: absolute;
+    top: 3%;
+    width: 23%;
+    border-top: 6px solid #111111;
+    border-right: 6px solid #111111;
+    right: 5%;
+}
+	.descr-view-of-item {
+    margin-left: 187px;
+}
+	.text-title-view-of-item {
+    font-size: 32px;
+}
+.menu{
+	left: 10%;
+	margin-left: 0%;
+	right:0%; 
+}
+.link-in-menu{
+	font-size: 13px;
+
+}
+	.descr-view-of-item {
+    font-size: 18px;
+}
+	.fz-18 {
+    font-size: 15px;
+}
+	.fz-14{
+		font-size: 12px;
+	}
+.h1-of-the-section {
+    font-size: 45px;
+    margin-left: 5%;
+}
+.the-h1-about-us{
+	font-size: 45px;
+}
+.p-of-the-section {
+    font-size: 16px;
+    width: 90%;
+    margin-left: 5%;
+}
+.btn-of-the-section {
+    width: 80%;
+    margin-left: 10%;
+}
+.border-under-btn {
+	width: 80%;
+    margin-left: 10%;
+}
+.h2-of-cars {
+     margin-top: 20%;
+     font-size: 27px;
+}
+.car {
+    width: 80%;
+    margin-left: 10%;
+}
+.car:hover .h2-of-cars  {
+	margin-top: 20px;
+}
+.photo-agent {
+    width: 100%;
+    margin-left: 1%;
+    height: 265px;
+}
+.wrap-our-agents {
+    background-size: 24% 100%;
+}
+.agent-ttl-name{
+	font-size: 17px;
+}
+.agent-name{
+	font-size: 21px;
+	margin-top: 6px;
+	margin-bottom: 3px;
+}
+.ttl-status-agent{
+	font-size: 17px;
+}
+.founder-agent{
+	font-size: 17px;
+}
+.ttl-socials-agent{
+	font-size: 17px;
+	margin-top: 16px;
+}
+.title-developers {
+	font-size: 21px;
+}
+.min-photo-agent {
+    height: 140px;
+}
+.wrap-our-agents {
+    min-height: 900px;
+}
+.img-jobs {
+    margin-top: 132px;
+}
+.block-jobs {
+    -webkit-background-size: 100% 27%;
+    background-size: 100% 180px;
+}
+.arrow_jobs {
+    position: absolute;
+    display: inline;
+    width: 58%;
+    top: 32%;
+    left: 21.3%;
+    z-index: 5;
+    height: 5%;
+}
+.arrow_left_jobs {
+    float: left;
+    height: 100%;
+    width: 11%;
+    background: #fff;
+    margin-right: 76%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.arrow_right_jobs {
+    float: left;
+    height: 100%;
+    width: 12%;
+    background-image: url(../img/footer-background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.font-lets-work {
+    font-size: 30px;
+}
+.p-lets-work {
+    font-size: 18px;
+    width: 70%;
+    margin-left: 15%;
+}
+.btn-lets-work {
+    width: 40%;
+    margin-left: 30%;
+    font-size: 21px;
+}
+.agency-text {
+    width: 90%;
+    margin-left: 5%;
+}
+.links-footer {
+    width: 50%;
+    margin-left: 30%;
+    font-size: 14px;
+}
+.img-qr {
+    margin-top: 20px;
+    width: 40%;
+    margin-left: 30%;
+}
+.wrap-data-link-footer {
+    width: 60%;
+    margin-left: 20%;
+}
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .arrow-agent {
+    height: 30%;
+    width: auto;
+    margin-left: 36%;
+    margin-top: 42%;
+    transform: rotate(90deg);
+}
+
+
+    .item-active .fz-14, .item-active .fz-18, .item-active .index-number-of-item{
+        font-size: 30px!important;
+    }
+.main-view-of-item {
+	width: 90%;
+	left: 5%;
+	top: 117px;
+}
+.agency {
+	font-size: 55px;
+    margin-left: 50px;
+    margin-top: 103px;
+}
+.menu {
+   top: 2px;
+   left: 0%;
+   right: 7%;
+   margin-left: 0%;
+}
+.link-in-menu {
+    font-size: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.descr-view-of-item {
+    margin-left: 100px;
+}
+.text-title-view-of-item {
+    font-size: 28px;
+}
+.item {
+    width: 70%;
+    margin-left: 15%;
+}
+.item-active{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15%;
+    padding-right: 15px;
+    width: 100%;
+    margin-left: 0;
+}
+.h1-of-the-section {
+    font-size: 45px;
+    margin-left: 5%;
+}
+.the-h1-about-us{
+	font-size: 33px;
+}
+#u {
+    margin-left: 10px;
+}
+.p-of-the-section {
+    font-size: 15px;
+    width: 90%;
+    margin-left: 5%;
+}
+.btn-of-the-section {
+    width: 80%;
+    margin-left: 10%;
+}
+.border-under-btn {
+	width: 80%;
+    margin-left: 10%;
+}
+.content-of-blck-our-srvcs {
+    width: 100%;
+    font-size: 17px;
+}
+.fz-of-title-os {
+    font-size: 22px;
+}
+.title-of-block-our-servs {
+    width: 70%;
+    margin-left: 15%;
+}
+.featch {
+    width: 80%;
+    margin-left: 10%;
+}
+.photo-agent {
+   height: 192px;
+}
+.agent-ttl-name{
+	font-size: 16px;
+}
+.agent-name{
+	font-size: 20px;
+	margin-top: 6px;
+	margin-bottom: 3px;
+}
+.ttl-status-agent{
+	font-size: 16px;
+}
+.founder-agent{
+	font-size: 16px;
+}
+.ttl-socials-agent{
+	font-size: 16px;
+	margin-top: 16px;
+}
+.title-developers {
+	font-size: 20px;
+}
+.min-photo-agent {
+    height: 140px;
+}
+.wrap-our-agents {
+    min-height: 800px;
+}
+.arrow_jobs {
+    position: absolute;
+    display: inline;
+    width: 75%;
+    top: 25%;
+    left: 13%;
+    z-index: 5;
+    height: 3%;
+}
+.div_new {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 15px;
+}
+.p-of-new {
+    font-size: 17px;
+}
+.p-lets-work {
+    font-size: 17px;
+    width: 90%;
+    margin-left: 5%;
+}
+.font-lets-work {
+    font-size: 25px;
+}
+.hr-lets-together {
+    width: 80%;
+    margin-left: 10%;
+}
+.btn-lets-work {
+    width: 60%;
+    margin-left: 20%;
+    font-size: 18px;
+}
+.agency-text {
+    width: 100%;
+    margin-left: 0%;
+}
+.links-footer {
+    width: 50%;
+    margin-left: 30%;
+    font-size: 14px;
+}
+.wrap-data-link-footer {
+    width: 60%;
+    margin-left: 20%;
+}
+.links-footer {
+    width: 70%;
+    margin-left: 25%;
+}
+.wrap-data-link-footer {
+    width: 80%;
+    margin-left: 10%;
+}
+.img-qr {
+    margin-top: 20px;
+    width: 40%;
+    margin-left: 30%;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
